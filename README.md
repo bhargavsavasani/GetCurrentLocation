@@ -48,3 +48,24 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+
+
+**Installation**
+=============
+Add it in your root build.gradle at the end of repositories:
+
+```sh
+allprojects {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+
+Add the dependency
+```sh
+dependencies {
+   implementation 'com.github.bhargavsavasani:GetCurrentLocation:1.0.0'
+}
+```
