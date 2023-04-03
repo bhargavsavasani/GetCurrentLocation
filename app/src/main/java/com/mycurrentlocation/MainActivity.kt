@@ -1,19 +1,15 @@
-# CurrentLocation
+package com.mycurrentlocation
 
+import android.location.Location
+import android.os.Bundle
+import android.util.Log
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.IntentSenderRequest
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
+import com.currentlocation.LocationUtils
+import com.mycurrentlocation.databinding.ActivityMainBinding
 
-**Features**
-=============
-* Get Current location
-* No need to ask permission or setting location dialog direct call this method an get current location
-* Get accurate location
-* Fetch location one time or continues 
-* ✨Fast Working ✨
-
-
-
-**Usage**
-=============
-```sh
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -47,4 +43,3 @@ class MainActivity : AppCompatActivity() {
         )
     }
 }
-```

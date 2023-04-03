@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrentLocation</string>
+
+    <string name="msg_no_permission_location"># does not have access to your Location. To enable access, tap Settings and turn on Location Permission.</string>
+</resources>
