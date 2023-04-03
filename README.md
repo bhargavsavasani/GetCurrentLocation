@@ -66,6 +66,6 @@ allprojects {
 Add the dependency
 ```sh
 dependencies {
-   implementation 'com.github.bhargavsavasani:GetCurrentLocation:1.0.0'
+   implementation 'com.github.bhargavsavasani:GetCurrentLocation:1.0.1'
 }
 ```
